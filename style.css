@@ -486,6 +486,7 @@ body {
 .how-it-works-first-group {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 15px;
 }
 .how-it-works-second-group {
@@ -764,7 +765,6 @@ body {
   height: 249px;
   padding: 28px;
   border-radius: 30px;
-  
 }
 
 .weekend-2-offer-card-content-1{
@@ -787,6 +787,12 @@ body {
 .weekend-2-links{
   display: flex;
   gap: 10px;
+}
+.weekend-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 .weekend-offer-link-2{
   padding: 10px 22px;
